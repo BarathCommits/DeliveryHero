@@ -34,10 +34,10 @@ Please follow the below mentioned steps
 
 6. mkdir -p ../output
 
-7. Download the required data set from the below mentioned website to ../input
+7. Download the required data set from the below mentioned website to ../input :
    https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
-8 . Execute the below mentioned command
+8 . Execute the below mentioned command : 
     python DataAnalysis.py --input '../input/yellow_tripdata_2018-01.csv' --output '../output/'
     
 After executing this command the desired output will be available in the ../output directory.
