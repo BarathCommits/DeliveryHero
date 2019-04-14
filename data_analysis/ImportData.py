@@ -5,7 +5,7 @@ Created on Sun Apr 14 12:53:32 2019
 
 @author: barat243
 """
-
+import sys
 import pandas as pd 
 
 class ImportData:
@@ -19,7 +19,7 @@ class ImportData:
             return input_df
         except IOError:
             print('Error reading file')
-            
+            sys.exit(2)
     
     def read_from_parquet(input_file):
         
