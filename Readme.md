@@ -20,4 +20,24 @@ For mac/linux :
 Clone the git repository to the local and execute the DataAnalysis.py script in the package
 as below 
 
-python DataAnalysis.py --input '../input/yellow_tripdata_2018-01.csv' --output '../output/'
+Please follow the below mentioned steps 
+
+1. mkdir DeliveryHero
+
+2. cd DeliveryHero
+
+3. git init
+
+4. git clone https://github.com/BarathCommits/DeliveryHero.git
+
+5. cd DeliveryHero/data_analysis/
+
+6. mkdir -p ../output
+
+7. Download the required data set from the below mentioned website to ../input
+   https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+8 . Execute the below mentioned command
+    python DataAnalysis.py --input '../input/yellow_tripdata_2018-01.csv' --output '../output/'
+    
+After executing this command the desired output will be available in the ../output directory.
